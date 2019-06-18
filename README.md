@@ -1,23 +1,23 @@
 ---
 services: Event-Hub
 platforms: dotnet
-author: hovsepm
+author: yaohaizh
 ---
 
 # Getting started on managing event hub, diagnostic settings and associated resources using C# #
 
-  Azure Event Hub sample for managing event hub models.
-    - Create a DocumentDB instance
-    - Creates a Event Hub namespace and an Event Hub in it
-    - Retrieve the root namespace authorization rule
-    - Enable diagnostics on a existing cosmosDB to stream events to event hub
+      Azure Event Hub sample for managing event hub models.
+        - Create a DocumentDB instance
+        - Creates a Event Hub namespace and an Event Hub in it
+        - Retrieve the root namespace authorization rule
+        - Enable diagnostics on a existing cosmosDB to stream events to event hub
 
 
 ## Running this Sample ##
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-net/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/eventhub-dotnet-manage-event-hub-events.git
 
