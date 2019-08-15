@@ -4,18 +4,18 @@ languages:
 - csharp
 products:
 - azure
-services: Event-Hub
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Event-Hub
+- platforms: dotnet
 ---
 
 # Getting started on managing event hub, diagnostic settings and associated resources using C# #
 
-      Azure Event Hub sample for managing event hub models.
-        - Create a DocumentDB instance
-        - Creates a Event Hub namespace and an Event Hub in it
-        - Retrieve the root namespace authorization rule
-        - Enable diagnostics on a existing cosmosDB to stream events to event hub
+ Azure Event Hub sample for managing event hub models.
+   - Create a DocumentDB instance
+   - Creates a Event Hub namespace and an Event Hub in it
+   - Retrieve the root namespace authorization rule
+   - Enable diagnostics on a existing cosmosDB to stream events to event hub
 
 
 ## Running this Sample ##
